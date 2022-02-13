@@ -371,20 +371,23 @@
             </div>
 
         <form action="#" class="form_footer">
-                <div class="form_subscribe">
-                    <label class="subscribe-text" for="subscribe-email">Подпишитесь на рассылку</label>
-                    <input 
-                        type="email"
-                        name="subscribe-email" 
-                        class="subscribe-input" 
-                        id="subscribe-email" 
-                        placeholder="Email"
-                        autofocus/>
-                </div>
-               <button type="button" class="subscribe-btn">Подписаться</button>
-        </form>    
-        
-    
+            <div class="form_subscribe">
+                <label class="subscribe-text" for="subscribe-email">Подпишитесь на рассылку</label>
+                <input 
+                type="email" 
+                name="subscribe-email" 
+                class="subscribe-input" 
+                id="subscribe-email" 
+                placeholder="Email"/>
+            </div>
+            <button type="button" class="subscribe-btn">
+                Подписаться<span>
+                    <svg class="policy-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-send"></use>
+                    </svg>
+                </span></button>
+        </form>
+            
     </div>
     </footer>
         <!-- MODAL WINDOW -->
