@@ -761,7 +761,6 @@ span {
   border-radius: 2px;
   margin-right: 7px;
 }
-
 .policy_check:checked + .check-text::before {
   border: none;
   background-image: url(../images/icon\ check.svg);
@@ -870,10 +869,10 @@ span {
 .subscribe-input:focus {
   border-color: var(--selection-color);
 }
-.policy-icon {
-  fill: var(--primary-bg-color);
+.send-icon {
   position: absolute;
   right: 28px;
   top: 50%;
   transform: translateY(-50%);
+  fill: var(--primary-bg-color);
 }
