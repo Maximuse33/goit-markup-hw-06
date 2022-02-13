@@ -842,6 +842,7 @@ span {
 }
 
 .subscribe-btn {
+  position: relative;
   align-self: flex-end;
   padding: 10px 62px 10px 29px;
   width: 200px;
@@ -868,4 +869,11 @@ span {
 .subscribe-input:hover,
 .subscribe-input:focus {
   border-color: var(--selection-color);
+}
+.policy-icon {
+  fill: var(--primary-bg-color);
+  position: absolute;
+  right: 28px;
+  top: 50%;
+  transform: translateY(-50%);
 }
