@@ -650,6 +650,11 @@ span {
   margin-bottom: 10px;
 }
 
+.form-field:nth-child(4),
+.form-field:nth-child(5) {
+  margin-bottom: 0;
+}
+
 .input-wrap {
   position: relative;
 }
